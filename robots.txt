@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://qraftistry24.github.io/web-Yt/sitemap.xml
