@@ -208,7 +208,7 @@ html{-webkit-text-size-adjust:100%}
  .nav nav a:nth-child(1),.nav nav a:nth-child(5){display:none}
  .nav img{height:36px}.nav .btn{padding:8px 15px;font-size:14px}
  section[id]{scroll-margin-top:100px}
- .founder{display:block;width:min(68vw,240px)}
+ .founder{display:none!important}
  .hero{padding:34px 0 44px}
  .shots{justify-content:flex-start!important;scroll-padding:0 14px}
  .shots button{scroll-snap-align:start!important}
@@ -316,3 +316,6 @@ footer .fl{display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:center;margi
 @media(max-width:860px){.cgrid2{grid-template-columns:1fr}.case .cimg{height:180px}}
 @media(max-width:700px){.tcard.one{padding:14px!important}.tcard.one img{max-height:420px}.case .cbody{padding:18px 18px 20px}.case h3{font-size:20px}.case{box-shadow:5px 5px 0 var(--yellow)}}
 .tcard.one{grid-template-columns:1fr!important;gap:0!important}
+
+/* round 5 */
+@media(max-width:860px){.about .ph{display:none}}
